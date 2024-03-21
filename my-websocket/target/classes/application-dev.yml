@@ -1,0 +1,21 @@
+
+# rabbitMq 相关配置
+
+
+
+
+spring:
+  application:
+    name: springboot-rabbitmq-s1
+
+  redis:
+    host: 47.107.111.148
+    port: 6379
+    database: 0
+
+  rabbitmq:
+    host: 47.107.111.148
+    port: 5672
+    virtual-host: /
+    username: guest
+    password: guest
